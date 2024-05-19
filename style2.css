@@ -1,0 +1,34 @@
+#navbarNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+    border: none;
+
+
+
+
+}
+
+#navbarNav button {
+    padding-right: 25px;
+    padding-left: 25px;
+
+    color: magenta;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+
+
+
+}
+
+#Home {
+    border-radius: 10px 0px 0px 10px;
+}
+#AboutUs,#Destinations,#Info{
+    border-radius: 0px;
+}
+#Login{
+    border-radius: 0px 10px 10px 0px;
+}
