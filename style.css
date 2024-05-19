@@ -1,25 +1,102 @@
 body {
     font-family: 'Oswald', sans-serif;
+    background-color: #FDD9B5; /* Sandy Peach */
     text-align: center;
-    background-color: #FDFDFD;
+}
+
+
+.container-fluid {
+    padding: 1% 4% 3% 1%;
 }
 
 .toptitle{
     background: url('mmm.jpg') no-repeat center center/cover;
-    height: 100vh; /* Full viewport height */
-    align-items: center;
-    justify-content: center;
+    background-attachment: fixed; /* Ensure the background image does not repeat */
+    height: 100vh; 
+    color: #FFFFFF; 
+}
+
+
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #FDFDFD;
+    letter-spacing: 3px;
+}
+
+.mainicon{
+    margin-right: 10px;
 }
 
 
 #title {
-     background-color: transparent;
-     padding-bottom: 14rem;
+    background-color: #FDD9B5;
+    margin-bottom: 14%;
+    background-color: transparent;
 }
 
 #navbarNav {
     font-family: 'Oswald', sans-serif;
     justify-content: flex-end;
-    margin-right: 5%;
-    
+    font-weight: bold;
+    background-color: rgba(245, 222, 179, 0.8);
+}
+
+
+.nav-item .nav-link {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-style: bold;
+    background-color: transparent;
+    color: #008080;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+
+.nav-item .nav-link:hover {
+    color: #FF7F50; /* Coral Reef */
+    text-decoration: underline;
+}
+
+.main-heading {
+    font-family: 'Abril Fatface', sans-serif; /* Ensure fallback font */
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* subtle black shadow */
+}
+
+
+#smallheading {
+    font-family: 'Oswald', sans-serif; /* Ensure fallback font */
+    font-size: 1rem;
+    font-style: normal;
+    text-shadow: 1px 1px 3px #006400; /* dark green shadow with a small blur */
+}
+
+
+
+
+.btn-primary {
+    background-color: #006400; /* Palm Leaf Green */
+    color: #FFD700; /* Sunshine Yellow */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #FF7F50; /* Coral Reef */
+    color: #FFFFFF; /* Pure White */
 }
