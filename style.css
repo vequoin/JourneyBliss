@@ -1,7 +1,69 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: #FDFDFD;
+}
+
+.toptitle{
+    background: url('mmm.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full viewport height */
+    align-items: center;
+    justify-content: center;
+}
+
+
+#title {
+     background-color: transparent;
+     padding-bottom: 14rem;
+}
+
 #navbarNav {
-    display: flex;
-    flex-direction: row;
+    font-family: 'Oswald', sans-serif;
     justify-content: flex-end;
-    margin-right: 5%;
-    
+    padding: .5%;
+    font-weight: bold;
+    background-color: rgba(245, 222, 179, 0.8);
+    width: 100%;
+}
+
+.nav-item .nav-link {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-style: bold;
+    background-color: transparent;
+    color: #025E73; /* Deep Ocean Blue */
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #FF6F61; /* Coral Pink */
+    text-decoration: underline;
+}
+
+.hero-section {
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    font-family: 'Abril Fatface';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.btn-primary {
+    background-color: #2F5D50; /* Forest Green */
+    color: #FFD700; /* Golden Yellow */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #FF6F61; /* Coral Pink */
+    color: #FFFFFF; /* Cloud White */
 }
